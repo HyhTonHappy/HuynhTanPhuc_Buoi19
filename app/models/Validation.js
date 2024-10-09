@@ -3,7 +3,7 @@ class Validation {
         if (value.length === 0) {
             return {
                 valid: false,
-                message: "Trường này không được để trống!",
+                message: "Không được để trống!",
             };
         }
 
